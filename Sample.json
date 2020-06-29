@@ -130,7 +130,7 @@
                 "4": {
                     "name": "quantum.py",
                     "hashes": {
-                        "MD5": "56a576f171701a735127fa769d538396"
+                        "SHA-256": "8391c571bffb3ce538ace4d8a3388b28eb486cca5bdab08ab7b568b4e8fc0ec8"
                     },
                     "type": "file"
                 }
