@@ -1,0 +1,178 @@
+{
+    "id": "bundle--e1aeab6f-33c8-4379-a9fb-49058fca0660",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "name": "Squid Proxy",
+            "identity_class": "events",
+            "type": "identity",
+            "id": "identity--79b13884-9581-425d-aa2f-21ac093ad4a7",
+            "created": "2020-06-29T16:33:08.643Z",
+            "modified": "2020-06-29T16:33:08.643Z"
+        },
+        {
+            "id": "observed-data--74b8fe32-b3c6-4eb6-a438-4d6cc7269dd2",
+            "number_observed": 1,
+            "first_observed": "2020-06-29T16:33:08.645051Z",
+            "last_observed": "2020-06-29T16:33:08.645061Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.179",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "retenc-visa-vehicl.madrid",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "https://asten.date/0SATUSTlp77lJ7Q90b4/LY4d6PxoVUt4T4m/i4BtA5oLld/otat.mul",
+                    "type": "url"
+                },
+                "3": {
+                    "user_id": "urryin-horsin",
+                    "type": "user-account"
+                },
+                "4": {
+                    "name": "isfigur.rcx",
+                    "hashes": {
+                        "SHA3-224": "89f465CBD1FFD16d466d72541fcCE54188Ea6065cfe8bdf82ee8AFf2"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-29T16:33:08.645Z",
+            "modified": "2020-06-29T16:33:08.645Z"
+        },
+        {
+            "id": "observed-data--9a307511-da98-4c23-a662-b3804660702a",
+            "number_observed": 1,
+            "first_observed": "2020-06-29T16:33:08.6477Z",
+            "last_observed": "2020-06-29T16:33:08.647707Z",
+            "objects": {
+                "0": {
+                    "value": "208.91.112.55",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "learn-service.com",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "https://learn-service.com/turn-any-linux-into-quantum-computer",
+                    "type": "url"
+                },
+                "3": {
+                    "user_id": "raddis",
+                    "type": "user-account"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-29T16:33:08.647Z",
+            "modified": "2020-06-29T16:33:08.647Z"
+        },
+        {
+            "id": "observed-data--cade376c-996d-4266-9930-05643cf0db45",
+            "number_observed": 1,
+            "first_observed": "2020-06-29T16:33:08.65453Z",
+            "last_observed": "2020-06-29T16:33:08.654536Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.251",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "aximisin-requisitio.lv",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "https://oulde-extraterrestrial-glitterin.imamat/da2xb4kPy9S/i1joD2/rging-asteroid.d10",
+                    "type": "url"
+                },
+                "3": {
+                    "user_id": "iphon-saloon",
+                    "type": "user-account"
+                },
+                "4": {
+                    "name": "leddin-missal.st3",
+                    "hashes": {
+                        "SHA-256": "0F43200fc8932A6A45BBEAbe2a8Fa97F0ebB2DA8cEB8A856a927AcC2d8D95a7e"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-29T16:33:08.654Z",
+            "modified": "2020-06-29T16:33:08.654Z"
+        },
+        {
+            "id": "observed-data--7354c707-f78c-453d-8080-e4995e8ec7b1",
+            "number_observed": 1,
+            "first_observed": "2020-06-29T16:33:08.656231Z",
+            "last_observed": "2020-06-29T16:33:08.656236Z",
+            "objects": {
+                "0": {
+                    "value": "208.91.112.55",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "learn-service.com",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "https://learn-service.com/quantum.py",
+                    "type": "url"
+                },
+                "3": {
+                    "user_id": "raddis",
+                    "type": "user-account"
+                },
+                "4": {
+                    "name": "quantum.py",
+                    "hashes": {
+                        "MD5": "56a576f171701a735127fa769d538396"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-29T16:33:08.656Z",
+            "modified": "2020-06-29T16:33:08.656Z"
+        },
+        {
+            "id": "observed-data--3d01147c-48db-4032-a779-a91077a3f9bc",
+            "number_observed": 1,
+            "first_observed": "2020-06-29T16:33:08.658302Z",
+            "last_observed": "2020-06-29T16:33:08.658307Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.240",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "reamie-engulfe.cz",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "http://oncoctio-homestea-psychiatris.bv/H8t33wWj64t/1rO94Bf6A9q16CyGx/alatinat.npa",
+                    "type": "url"
+                },
+                "3": {
+                    "user_id": "nterconnecte-hussie-choosin",
+                    "type": "user-account"
+                },
+                "4": {
+                    "name": "oxin.pkg",
+                    "hashes": {
+                        "SHA-1": "2dFbE1E58D4de9d8a69583EDd56484A9ECAB596B"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-29T16:33:08.658Z",
+            "modified": "2020-06-29T16:33:08.658Z"
+        }
+    ],
+    "type": "bundle"
+}
