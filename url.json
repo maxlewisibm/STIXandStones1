@@ -51,10 +51,6 @@
             "type": "domain-name",
             "value": "example.com"
         },
-        "8": {
-            "user_id": "HughMann",
-            "type": "user-account"
-        },
     },
     "x_com_ibm_ariel": {
         "event_name": "UTM Passthrough",
