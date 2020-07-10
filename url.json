@@ -1,0 +1,107 @@
+{
+    "_id": "6d56600f79a8a1779d0c0ec446075f2f",
+    "_rev": "1-1f67271da7f6077be2fb3780a56f8119",
+    "id": "observed-data--7e659058-af44-492e-9378-cddbacac325c",
+    "type": "observed-data",
+    "created_by_ref": "identity--4391f9b5-79e7-4bcd-9cdb-b9b662e01afb",
+    "created": "2020-07-10T17:09:05.737Z",
+    "modified": "2020-07-10T17:09:05.737Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "192.168.1.117",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 53365,
+            "dst_ref": "3",
+            "dst_port": 80,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "93.184.216.34",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4OT5kYXRlPTIwMjAtMDctMTAgdGltZT0xMzowNzo1NSBkZXZuYW1lPSJMYWIiIGRldmlkPSJG\nR1Q0MEZUSzE5MDAyNjUxIiBsb2dpZD0iMDMxNzAxMzMxMiIgdHlwZT0idXRtIiBzdWJ0eXBlPSJ3\nZWJmaWx0ZXIiIGV2ZW50dHlwZT0iZnRnZF9hbGxvdyIgbGV2ZWw9Im5vdGljZSIgdmQ9InJvb3Qi\nIGV2ZW50dGltZT0xNTk0NDAwODc1NzY5NDYxODgwIHR6PSItMDQwMCIgcG9saWN5aWQ9NiBzZXNz\naW9uaWQ9ODk2MTUwMyBzcmNpcD0xOTIuMTY4LjEuMTE3IHNyY3BvcnQ9NTMzNjUgc3JjaW50Zj0i\nbGFuIiBzcmNpbnRmcm9sZT0ibGFuIiBkc3RpcD05My4xODQuMjE2LjM0IGRzdHBvcnQ9ODAgZHN0\naW50Zj0id2FuIiBkc3RpbnRmcm9sZT0id2FuIiBwcm90bz02IHNlcnZpY2U9IkhUVFAiIGhvc3Ru\nYW1lPSJleGFtcGxlLmNvbSIgcHJvZmlsZT0iZGVmYXVsdCIgYWN0aW9uPSJwYXNzdGhyb3VnaCIg\ncmVxdHlwZT0iZGlyZWN0IiB1cmw9Imh0dHA6Ly9leGFtcGxlLmNvbS8iIHNlbnRieXRlPTMzNiBy\nY3ZkYnl0ZT0wIGRpcmVjdGlvbj0ib3V0Z29pbmciIG1zZz0iVVJMIGJlbG9uZ3MgdG8gYW4gYWxs\nb3dlZCBjYXRlZ29yeSBpbiBwb2xpY3kiIG1ldGhvZD0iaXAiIGNhdD01NiBjYXRkZXNjPSJXZWIg\nSG9zdGluZyIgcmF3ZGF0YT0iTWV0aG9kPUdFVHxVc2VyLUFnZW50PU1vemlsbGEvNS4wIChNYWNp\nbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwLjE1OyBydjo3OC4wKSBHZWNrby8yMDEwMDEwMSBGaXJl\nZm94Lzc4LjAi"
+        },
+        "6": {
+            "type": "url",
+            "value": "example.com"
+        },
+        "7": {
+            "type": "domain-name",
+            "value": "example.com"
+        },
+        "8": {
+            "user_id": "HughMann",
+            "type": "user-account"
+        },
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "UTM Passthrough",
+        "qid": 20279080,
+        "category_name": "Information",
+        "category_id": 8052,
+        "high_level_category_name": "System",
+        "high_level_category_id": 8000,
+        "log_source_id": 70,
+        "log_source_type_name": "Extreme Networks ExtremeWare Operating System (OS)",
+        "log_source_name": "FortiGate @ 192.168.1.2",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "NorthAmerica.UnitedStates",
+        "cre_event_list": [
+            "100030",
+            "115543",
+            "113893",
+            "100257",
+            "100227",
+            "100225",
+            "100221",
+            "100297",
+            "100272",
+            "100216"
+        ],
+        "rule_names": [
+            "BB:PortDefinition: Web Ports",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Excluded Geographic Locations",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0,
+        "device_type_name": "Fortinet FortiGate Security Gateway",
+        "device_type": 73
+    },
+    "first_observed": "2020-07-10T17:07:56.670Z",
+    "last_observed": "2020-07-10T17:07:56.670Z",
+    "number_observed": 1
+}
