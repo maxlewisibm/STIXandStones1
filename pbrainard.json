@@ -1,1 +1,226 @@
-{"type":"bundle","id":"a2caa8e0-3ea1-47e0-a49c-7db4acec6802","objects":[{"id":"observed-data--441acb32-4194-40f8-a16f-964c0fe40432","type":"observed-data","created_by_ref":"identity--a97a114e-b59d-4a42-853d-ab135f1a09e0","created":"2020-08-04T19:44:27.176Z","modified":"2020-08-04T19:44:27.176Z","objects":{"0":{"type":"ipv4-addr","value":"192.168.1.119","resolves_to_refs":["2"]},"1":{"type":"network-traffic","src_ref":"0","src_port":0,"dst_ref":"3","dst_port":0,"protocols":["reserved"]},"2":{"type":"mac-addr","value":"00:00:00:00:00:00"},"3":{"type":"ipv4-addr","value":"192.168.1.119","resolves_to_refs":["4"]},"4":{"type":"mac-addr","value":"00:00:00:00:00:00"},"5":{"type":"user-account","user_id":"pbrainard"},"6":{"type":"artifact","payload_bin":"PDg1PkF1ZyAgNCAxNTo0MzozMiByZXNlYXJjaDExOS1sb2NhbGRvbWFpbiBzdWRvWzQ3NzddOiBw\nYnJhaW5hcmQgOiBUVFk9cHRzLzAgOyBQV0Q9L2hvbWUvcGJyYWluYXJkL0Rvd25sb2FkcyA7IFVT\nRVI9cm9vdCA7IENPTU1BTkQ9L2Jpbi9jaG1vZCA3NzcgcXVhbnR1bS5weQo="}},"x_com_ibm_ariel":{"event_name":"Privilege Escalation Succeeded","qid":44251582,"category_name":"Privilege Escalation Succeeded","category_id":3007,"high_level_category_name":"Authentication","high_level_category_id":3000,"log_source_id":1365,"log_source_type_name":"Device type 1365","log_source_name":"LinuxServer @ research119-localdomain","direction":"L2L","identity_ip":"0.0.0.0","magnitude":6,"severity":1,"credibility":10,"relevance":10,"geographic":"other","cre_event_list":["100005","115543","115493","113893","100227","100225","100221","100119","100265","100303","100272","100218","100215"],"rule_names":["BB:CategoryDefinition: Authentication Success","BB:UBA : Common Log Source Filters","BB:UBA : Common Event Filters","BB:UBA : Excluded Geographic Locations","Source Asset Weight is Low","Source Asset Exists","Destination Asset Weight is Low","BB:CategoryDefinition: Post Exploit Account Activity","BB:DeviceDefinition: Operating System","BB:CategoryDefinition: Privileged Escalations","Load Basic Building Blocks","Destination Asset Exists","Context is Local to Local"],"domain_id":0,"device_type_name":"Linux OS","device_type":11},"first_observed":"2020-08-04T19:43:32.594Z","last_observed":"2020-08-04T19:43:32.594Z","number_observed":1},{"id":"observed-data--a469426a-74c8-47dd-9559-d7f7b184097e","type":"observed-data","created_by_ref":"identity--a97a114e-b59d-4a42-853d-ab135f1a09e0","created":"2020-08-04T19:44:27.180Z","modified":"2020-08-04T19:44:27.180Z","objects":{"0":{"type":"ipv4-addr","value":"192.168.1.119","resolves_to_refs":["2"]},"1":{"type":"network-traffic","src_ref":"0","src_port":0,"dst_ref":"3","dst_port":0,"protocols":["reserved"]},"2":{"type":"mac-addr","value":"00:00:00:00:00:00"},"3":{"type":"ipv4-addr","value":"192.168.1.119","resolves_to_refs":["4"]},"4":{"type":"mac-addr","value":"00:00:00:00:00:00"},"5":{"type":"user-account","user_id":"pbrainard"},"6":{"type":"artifact","payload_bin":"PDg1PkF1ZyAgNCAxNTo0Mzo0MCByZXNlYXJjaDExOS1sb2NhbGRvbWFpbiBzdWRvWzQ4MTNdOiBw\nYnJhaW5hcmQgOiBUVFk9cHRzLzAgOyBQV0Q9L2hvbWUvcGJyYWluYXJkL0Rvd25sb2FkcyA7IFVT\nRVI9cm9vdCA7IENPTU1BTkQ9L2Jpbi9weXRob24zIHF1YW50dW0ucHkK"}},"x_com_ibm_ariel":{"event_name":"Privilege Escalation Succeeded","qid":44251582,"category_name":"Privilege Escalation Succeeded","category_id":3007,"high_level_category_name":"Authentication","high_level_category_id":3000,"log_source_id":1365,"log_source_type_name":"Device type 1365","log_source_name":"LinuxServer @ research119-localdomain","direction":"L2L","identity_ip":"0.0.0.0","magnitude":6,"severity":1,"credibility":10,"relevance":10,"geographic":"other","cre_event_list":["100005","115543","115493","113893","100227","100225","100221","100119","100265","100303","100272","100218","100215"],"rule_names":["BB:CategoryDefinition: Authentication Success","BB:UBA : Common Log Source Filters","BB:UBA : Common Event Filters","BB:UBA : Excluded Geographic Locations","Source Asset Weight is Low","Source Asset Exists","Destination Asset Weight is Low","BB:CategoryDefinition: Post Exploit Account Activity","BB:DeviceDefinition: Operating System","BB:CategoryDefinition: Privileged Escalations","Load Basic Building Blocks","Destination Asset Exists","Context is Local to Local"],"domain_id":0,"device_type_name":"Linux OS","device_type":11},"first_observed":"2020-08-04T19:43:40.813Z","last_observed":"2020-08-04T19:43:40.813Z","number_observed":1}]}
+{
+   "type":"bundle",
+   "id":"a2caa8e0-3ea1-47e0-a49c-7db4acec6802",
+   "objects":[
+      {
+         "id":"observed-data--441acb32-4194-40f8-a16f-964c0fe40432",
+         "type":"observed-data",
+         "created_by_ref":"identity--a97a114e-b59d-4a42-853d-ab135f1a09e0",
+         "created":"2020-08-04T19:44:27.176Z",
+         "modified":"2020-08-04T19:44:27.176Z",
+         "objects":{
+            "0":{
+               "type":"ipv4-addr",
+               "value":"192.168.1.119",
+               "resolves_to_refs":[
+                  "2"
+               ]
+            },
+            "1":{
+               "type":"network-traffic",
+               "src_ref":"0",
+               "src_port":0,
+               "dst_ref":"3",
+               "dst_port":0,
+               "protocols":[
+                  "reserved"
+               ]
+            },
+            "2":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "3":{
+               "type":"ipv4-addr",
+               "value":"192.168.1.119",
+               "resolves_to_refs":[
+                  "4"
+               ]
+            },
+            "4":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "5":{
+               "type":"user-account",
+               "user_id":"pbrainard"
+            },
+            "6": {
+                    "name": "quantum.py",
+                    "hashes": {
+                        "SHA-256": "8391c571bffb3ce538ace4d8a3388b28eb486cca5bdab08ab7b568b4e8fc0ec8"
+                    },
+                    "type": "file"
+                },
+            "7":{
+               "type":"artifact",
+               "payload_bin":"PDg1PkF1ZyAgNCAxNTo0MzozMiByZXNlYXJjaDExOS1sb2NhbGRvbWFpbiBzdWRvWzQ3NzddOiBw\nYnJhaW5hcmQgOiBUVFk9cHRzLzAgOyBQV0Q9L2hvbWUvcGJyYWluYXJkL0Rvd25sb2FkcyA7IFVT\nRVI9cm9vdCA7IENPTU1BTkQ9L2Jpbi9jaG1vZCA3NzcgcXVhbnR1bS5weQo="
+            }
+         },
+         "x_com_ibm_ariel":{
+            "event_name":"Privilege Escalation Succeeded",
+            "qid":44251582,
+            "category_name":"Privilege Escalation Succeeded",
+            "category_id":3007,
+            "high_level_category_name":"Authentication",
+            "high_level_category_id":3000,
+            "log_source_id":1365,
+            "log_source_type_name":"Device type 1365",
+            "log_source_name":"LinuxServer @ research119-localdomain",
+            "direction":"L2L",
+            "identity_ip":"0.0.0.0",
+            "magnitude":6,
+            "severity":1,
+            "credibility":10,
+            "relevance":10,
+            "geographic":"other",
+            "cre_event_list":[
+               "100005",
+               "115543",
+               "115493",
+               "113893",
+               "100227",
+               "100225",
+               "100221",
+               "100119",
+               "100265",
+               "100303",
+               "100272",
+               "100218",
+               "100215"
+            ],
+            "rule_names":[
+               "BB:CategoryDefinition: Authentication Success",
+               "BB:UBA : Common Log Source Filters",
+               "BB:UBA : Common Event Filters",
+               "BB:UBA : Excluded Geographic Locations",
+               "Source Asset Weight is Low",
+               "Source Asset Exists",
+               "Destination Asset Weight is Low",
+               "BB:CategoryDefinition: Post Exploit Account Activity",
+               "BB:DeviceDefinition: Operating System",
+               "BB:CategoryDefinition: Privileged Escalations",
+               "Load Basic Building Blocks",
+               "Destination Asset Exists",
+               "Context is Local to Local"
+            ],
+            "domain_id":0,
+            "device_type_name":"Linux OS",
+            "device_type":11
+         },
+         "first_observed":"2020-08-04T19:43:32.594Z",
+         "last_observed":"2020-08-04T19:43:32.594Z",
+         "number_observed":1
+      },
+      {
+         "id":"observed-data--a469426a-74c8-47dd-9559-d7f7b184097e",
+         "type":"observed-data",
+         "created_by_ref":"identity--a97a114e-b59d-4a42-853d-ab135f1a09e0",
+         "created":"2020-08-04T19:44:27.180Z",
+         "modified":"2020-08-04T19:44:27.180Z",
+         "objects":{
+            "0":{
+               "type":"ipv4-addr",
+               "value":"192.168.1.119",
+               "resolves_to_refs":[
+                  "2"
+               ]
+            },
+            "1":{
+               "type":"network-traffic",
+               "src_ref":"0",
+               "src_port":0,
+               "dst_ref":"3",
+               "dst_port":0,
+               "protocols":[
+                  "reserved"
+               ]
+            },
+            "2":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "3":{
+               "type":"ipv4-addr",
+               "value":"192.168.1.119",
+               "resolves_to_refs":[
+                  "4"
+               ]
+            },
+            "4":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "5":{
+               "type":"user-account",
+               "user_id":"pbrainard"
+            },
+            "6": {
+                    "name": "quantum.py",
+                    "hashes": {
+                        "SHA-256": "8391c571bffb3ce538ace4d8a3388b28eb486cca5bdab08ab7b568b4e8fc0ec8"
+                    },
+                    "type": "file"
+                },
+            "7":{
+               "type":"artifact",
+               "payload_bin":"PDg1PkF1ZyAgNCAxNTo0Mzo0MCByZXNlYXJjaDExOS1sb2NhbGRvbWFpbiBzdWRvWzQ4MTNdOiBw\nYnJhaW5hcmQgOiBUVFk9cHRzLzAgOyBQV0Q9L2hvbWUvcGJyYWluYXJkL0Rvd25sb2FkcyA7IFVT\nRVI9cm9vdCA7IENPTU1BTkQ9L2Jpbi9weXRob24zIHF1YW50dW0ucHkK"
+            }
+         },
+         "x_com_ibm_ariel":{
+            "event_name":"Privilege Escalation Succeeded",
+            "qid":44251582,
+            "category_name":"Privilege Escalation Succeeded",
+            "category_id":3007,
+            "high_level_category_name":"Authentication",
+            "high_level_category_id":3000,
+            "log_source_id":1365,
+            "log_source_type_name":"Device type 1365",
+            "log_source_name":"LinuxServer @ research119-localdomain",
+            "direction":"L2L",
+            "identity_ip":"0.0.0.0",
+            "magnitude":6,
+            "severity":1,
+            "credibility":10,
+            "relevance":10,
+            "geographic":"other",
+            "cre_event_list":[
+               "100005",
+               "115543",
+               "115493",
+               "113893",
+               "100227",
+               "100225",
+               "100221",
+               "100119",
+               "100265",
+               "100303",
+               "100272",
+               "100218",
+               "100215"
+            ],
+            "rule_names":[
+               "BB:CategoryDefinition: Authentication Success",
+               "BB:UBA : Common Log Source Filters",
+               "BB:UBA : Common Event Filters",
+               "BB:UBA : Excluded Geographic Locations",
+               "Source Asset Weight is Low",
+               "Source Asset Exists",
+               "Destination Asset Weight is Low",
+               "BB:CategoryDefinition: Post Exploit Account Activity",
+               "BB:DeviceDefinition: Operating System",
+               "BB:CategoryDefinition: Privileged Escalations",
+               "Load Basic Building Blocks",
+               "Destination Asset Exists",
+               "Context is Local to Local"
+            ],
+            "domain_id":0,
+            "device_type_name":"Linux OS",
+            "device_type":11
+         },
+         "first_observed":"2020-08-04T19:43:40.813Z",
+         "last_observed":"2020-08-04T19:43:40.813Z",
+         "number_observed":1
+      }
+   ]
+}
