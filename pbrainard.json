@@ -115,4 +115,10 @@
                "type":"artifact",
                "payload_bin":"PDg1PkF1ZyAgNCAxNTo0Mzo0MCByZXNlYXJjaDExOS1sb2NhbGRvbWFpbiBzdWRvWzQ4MTNdOiBw\nYnJhaW5hcmQgOiBUVFk9cHRzLzAgOyBQV0Q9L2hvbWUvcGJyYWluYXJkL0Rvd25sb2FkcyA7IFVT\nRVI9cm9vdCA7IENPTU1BTkQ9L2Jpbi9weXRob24zIHF1YW50dW0ucHkK"
             }
+         },
+         "first_observed":"2020-08-04T19:43:40.813Z",
+         "last_observed":"2020-08-04T19:43:40.813Z",
+         "number_observed":1
+      }
+   ]
 }
