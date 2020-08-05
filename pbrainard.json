@@ -48,7 +48,7 @@
             "6": {
                     "name": "quantum.py",
                     "hashes": {
-                        "SHA-256": "8391c571bffb3ce538ace4d8a3388b28eb486cca5bdab08ab7b568b4e8fc0ec8"
+                        "SHA-256":  "f0925ffe1bbc5a5d7a256b65c7407f2d9ae89035d9a7b4bd03d0113336e46f7f"
                     },
                     "type": "file"
                 },
@@ -107,7 +107,7 @@
             "6": {
                     "name": "quantum.py",
                     "hashes": {
-                        "SHA-256": "8391c571bffb3ce538ace4d8a3388b28eb486cca5bdab08ab7b568b4e8fc0ec8"
+                        "SHA-256":  "f0925ffe1bbc5a5d7a256b65c7407f2d9ae89035d9a7b4bd03d0113336e46f7f"
                     },
                     "type": "file"
                 },
