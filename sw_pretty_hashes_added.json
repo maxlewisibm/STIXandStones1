@@ -51,13 +51,13 @@
             },
             "7":{
                "type":"file",
-               "name":"SolarWinds.Orion.Core.BusinessLayer.dll",
+               "name": "SolarWinds.Orion.Core.BusinessLayer.dll",
                "hashes": {
-                   "MD5":"b91ce2fa41029f6955bff20079468448",
-                   "SHA-1":"76640508b1e7759e548771a5359eaed353bf1eec",
-                   "SHA-256":"32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
-               },
-            },
+                   "MD5": "b91ce2fa41029f6955bff20079468448",
+                   "SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+                   "SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+               }
+            }
          },
          "x_ibm_ariel":{
             "event_name":"Image loaded",
