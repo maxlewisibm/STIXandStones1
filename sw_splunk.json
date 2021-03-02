@@ -1,0 +1,68 @@
+{
+   "type":"bundle",
+   "id":"fe949f27-8a4c-46c4-80b4-c4d474f7a2f2",
+   "objects":[
+      {
+         "id":"observed-data--5fc07af6-5a15-4046-9721-b83dec336c7c",
+         "type":"observed-data",
+         "created_by_ref":"identity--6ea4cc0f-5c90-4ca2-bcc4-6f5f83ded3ac",
+         "created":"2021-01-12T18:00:39.996Z",
+         "modified":"2021-01-12T18:00:39.996Z",
+         "objects":{
+            "0":{
+               "type":"ipv4-addr",
+               "value":"10.35.49.109",
+               "resolves_to_refs":[
+                  "2"
+               ]
+            },
+            "1":{
+               "type":"network-traffic",
+               "src_ref":"0",
+               "src_port":0,
+               "dst_ref":"3",
+               "dst_port":0,
+               "protocols":[
+                  "reserved"
+               ]
+            },
+            "2":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "3":{
+               "type":"ipv4-addr",
+               "value":"10.35.49.109",
+               "resolves_to_refs":[
+                  "4"
+               ]
+            },
+            "4":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "5":{
+               "type":"user-account",
+               "user_id":"SYSTEM"
+            },
+            "6":{
+               "type":"artifact",
+               "payload_bin":"PDE4Mj5KYW4gMTIgMTI6NTY6NTAgMTAuMzkuNDUuMTA5IDwxMz5KYW4gMTIgMTE6Mjk6MzYgMTAuMzUuNDkuMTA5IEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi45Ljk2CVNvdXJjZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24JQ29tcHV0ZXI9REMwMS5kb21haW4ubG9jYWwJT3JpZ2luYXRpbmdDb21wdXRlcj0xMC4zNS40OS4xMDkJVXNlcj1TWVNURU0JRG9tYWluPU5UIEFVVEhPUklUWQlFdmVudElEPTcJRXZlbnRJRENvZGU9NwlFdmVudFR5cGU9NAlFdmVudENhdGVnb3J5PTcJUmVjb3JkTnVtYmVyPTE1MjAxMTI1MTYJVGltZUdlbmVyYXRlZD0xNjEwNDY4OTc1CVRpbWVXcml0dGVuPTE2MTA0Njg5NzUJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNrLVNZU01PTl9JTUFHRV9MT0FECU9wY29kZT1JbmZvCU1lc3NhZ2U9SW1hZ2UgbG9hZGVkOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMjEtMDEtMTIgMTY6Mjk6MzUuNTE4IFByb2Nlc3NHdWlkOiB7ZTFjM2RmMzMtY2U2Zi01ZmZkLTAwMDAtMDAxMDI2NjZiYzVkfSBQcm9jZXNzSWQ6IDYwNzIgSW1hZ2U6IEM6XFdpbmRvd3NcU3lzdGVtMzJcbG9hZGRsbDMyLmV4ZSBJbWFnZUxvYWRlZDogQzpcVXNlcnNcZHRyb3lcRGVza3RvcFxTb2xhcldpbmRzLk9yaW9uLkNvcmUuQnVzaW5lc3NMYXllci5kbGwgRmlsZVZlcnNpb246IDEwLjAuMTc3NjMuMSAoV2luQnVpbGQuMTYwMTAxLjA4MDApIERlc2NyaXB0aW9uOiBXaW5kb3dzIENvcmUgRGVidWdnaW5nIEhlbHBlcnMgUHJvZHVjdDogTWljcm9zb2Z0wq4gV2luZG93c8KuIE9wZXJhdGluZyBTeXN0ZW0gQ29tcGFueTogTWljcm9zb2Z0IENvcnBvcmF0aW9uIE9yaWdpbmFsRmlsZU5hbWU6ICBTb2xhcldpbmRzLk9yaW9uLkNvcmUuQnVzaW5lc3NMYXllci5kbGwgSGFzaGVzOiBTSEExPTc2NjQwNTA4YjFlNzc1OWU1NDg3NzFhNTM1OWVhZWQzNTNiZjFlZWMsTUQ1PWI5MWNlMmZhNDEwMjlmNjk1NWJmZjIwMDc5NDY4NDQ4LFNIQTI1Nj0zMjUxOWI4NWMwYjQyMmU0NjU2ZGU2ZTZjNDE4NzhlOTVmZDk1MDI2MjY3ZGFhYjQyMTVlZTU5YzEwN2Q2Yzc3IFNpZ25lZDogdHJ1ZSBTaWduYXR1cmU6IE1pY3Jvc29mdCBXaW5kb3dzIFNpZ25hdHVyZVN0YXR1czogVmFsaWQK"
+            },
+            "7":{
+               "type":"file",
+               "name": "SolarWinds.Orion.Core.BusinessLayer.dll",
+               "hashes": {
+                   "MD5": "b91ce2fa41029f6955bff20079468448",
+                   "SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+                   "SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+               }
+            }
+         },
+         "x_com_splunk_spl": {
+                "user": "SYSTEM",
+                "utf8_payload": "<13>Jan 12 11:29:36 10.35.49.109 AgentDevice=WindowsLog AgentLogFile=Microsoft-Windows-Sysmon/Operational PluginVersion=7.2.9.96 Source=Microsoft-Windows-Sysmon Computer=DC01.domain.local OriginatingComputer=10.35.49.109 User=SYSTEM Domain=NT AUTHORITY EventID=7 EventIDCode=7 EventType=4 EventCategory=7 RecordNumber=1520112516 TimeGenerated=1610468975 TimeWritten=1610468975 Level=Informational Keywords=0x8000000000000000 Task=SysmonTask-SYSMON_IMAGE_LOAD Opcode=Info Message=Image loaded: RuleName: UtcTime: 2021-01-12 16:29:35.518 ProcessGuid: {e1c3df33-ce6f-5ffd-0000-00102666bc5d} ProcessId: 6072 Image: C:\\Windows\\System32\\loaddll32.exe ImageLoaded: C:\\Users\\dtroy\\Desktop\\SolarWinds.Orion.Core.BusinessLayer.dll FileVersion: 10.0.17763.1 (WinBuild.160101.0800) Description: Windows Core Debugging Helpers Product: Microsoft Windows Operating System Company: Microsoft Corporation OriginalFileName: SolarWinds.Orion.Core.BusinessLayer.dll Hashes: SHA1=76640508b1e7759e548771a5359eaed353bf1eec,MD5=b91ce2fa41029f6955bff20079468448,SHA256=32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 Signed: true Signature: Microsoft Windows SignatureStatus: Valid \n"
+            }
+        }
+   ]
+}
