@@ -1,0 +1,577 @@
+{
+    "report": {
+        "_key": "Report1",
+        "type": "QRadar API",
+        "created": 1597776019.168942,
+        "parameters": "",
+        "value": "",
+        "description": "QRadar Imports for APT28 Demo"
+    },
+    "source": {
+        "_key": "Source1",
+        "description": "reports coming from source Source1",
+        "product_link": "",
+        "name": "stable-tor01-vm-sa-dataexplorer.qradar.ibmcloud-dev.com"
+    },
+    "account": [
+        {
+            "external_id": "account_1",
+            "name": "Amulet Barfly Quizmaster",
+            "created": 1597776019.168942,
+            "active": true,
+            "compliance_status": true,
+            "modified": 1597776019.168942,
+            "first_occurrence": 1597776019.168942,
+            "last_occurrence": 1597776019.168942
+        },
+        {
+            "external_id": "account_2",
+            "name": "Saga Mystic Infringer",
+            "created": 1597776019.168942,
+            "active": true,
+            "compliance_status": true,
+            "modified": 1597776019.168942,
+            "first_occurrence": 1597776019.168942,
+            "last_occurrence": 1597776019.168942
+        },
+        {
+            "external_id": "account_3",
+            "name": "Squadmate Established Hero",
+            "created": 1597776019.168942,
+            "active": true,
+            "compliance_status": true,
+            "modified": 1597776019.168942,
+            "first_occurrence": 1597776019.168942,
+            "last_occurrence": 1597776019.168942
+        }
+    ],
+    "user": [
+        {
+            "fullname": "Brainard, Philip",
+            "job_title": "DevOps Research",
+            "email": "pbrainard@demo.com",
+            "description": "Standard User",
+            "family_name": "Brainard",
+            "given_name": "Philip",
+            "title": "DevOps Research",
+            "employee_id": "1",
+            "active": true,
+            "department": "IT",
+            "modified": 1597776019.168942,
+            "first_occurrence": 1597776019.168942,
+            "last_occurrence": 1597776019.168942,
+            "external_id": "user_1",
+            "name": "Philip Brainard"
+        },
+        {
+            "fullname": "Mystic, Saga",
+            "job_title": "Developer",
+            "email": "SagaM@mystic.com",
+            "description": "Description of Saga Mystic Infringer",
+            "family_name": "Infringer",
+            "given_name": "Saga",
+            "title": "Developer",
+            "employee_id": "2",
+            "active": true,
+            "department": "IT",
+            "modified": 1597776019.168942,
+            "first_occurrence": 1597776019.168942,
+            "last_occurrence": 1597776019.168942,
+            "external_id": "user_2",
+            "name": "Saga Mystic Infringer"
+        },
+        {
+            "fullname": "Established, Squadmate",
+            "job_title": "Development Manager",
+            "email": "SquadmateE@established.com",
+            "description": "Description of Squadmate Established Hero",
+            "family_name": "Hero",
+            "given_name": "Squadmate",
+            "title": "Development Manager",
+            "employee_id": "3",
+            "active": true,
+            "department": "IT",
+            "modified": 1597776019.168942,
+            "first_occurrence": 1597776019.168942,
+            "last_occurrence": 1597776019.168942,
+            "external_id": "user_3",
+            "name": "Squadmate Established Hero"
+        }
+    ],
+    "user_account": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "user_1",
+            "_to_external_id": "account_1"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "user_2",
+            "_to_external_id": "account_2"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "user_3",
+            "_to_external_id": "account_3"
+        }
+    ],
+    "asset": [
+        {
+            "name": "Devops-Research-119",
+            "external_id": "AmuletBarflyQuizmaster_laptop_192",
+            "business_value": 50,
+            "risk": 0.0,
+            "description": "",
+            "asset_type": "Laptop"
+        },
+        {
+            "name": "SagaMysticInfringer_laptop_192",
+            "external_id": "SagaMysticInfringer_laptop_192",
+            "business_value": 50,
+            "risk": 0.0,
+            "description": "",
+            "asset_type": "Laptop"
+        },
+        {
+            "name": "SquadmateEstablishedHero_laptop_192",
+            "external_id": "SquadmateEstablishedHero_laptop_192",
+            "business_value": 50,
+            "risk": 0.0,
+            "description": "",
+            "asset_type": "Laptop"
+        },
+        {
+            "name": "asset1",
+            "external_id": "asset1",
+            "business_value": 100,
+            "risk": 0.0,
+            "description": "srv01.atlanta.ops.example.org",
+            "asset_type": "Server"
+        }
+    ],
+    "asset_account": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "AmuletBarflyQuizmaster_laptop_192",
+            "_to_external_id": "account_1"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SagaMysticInfringer_laptop_192",
+            "_to_external_id": "account_2"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SquadmateEstablishedHero_laptop_192",
+            "_to_external_id": "account_3"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to_external_id": "account_1"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to_external_id": "account_2"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to_external_id": "account_3"
+        }
+    ],
+    "hostname": [
+        {
+            "_key": "AmuletBarflyQuizmaster_laptop_192.example.org"
+        },
+        {
+            "_key": "SagaMysticInfringer_laptop_192.example.org"
+        },
+        {
+            "_key": "SquadmateEstablishedHero_laptop_192.example.org"
+        },
+        {
+            "_key": "apt28.org"
+        }
+    ],
+    "account_hostname": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_1",
+            "_to": "hostname/AmuletBarflyQuizmaster_laptop_192.example.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_2",
+            "_to": "hostname/SagaMysticInfringer_laptop_192.example.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_3",
+            "_to": "hostname/SquadmateEstablishedHero_laptop_192.example.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_1",
+            "_to": "hostname/apt28.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_2",
+            "_to": "hostname/apt28.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_3",
+            "_to": "hostname/apt28.org"
+        }
+    ],
+    "asset_hostname": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "AmuletBarflyQuizmaster_laptop_192",
+            "_to": "hostname/AmuletBarflyQuizmaster_laptop_192.example.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SagaMysticInfringer_laptop_192",
+            "_to": "hostname/SagaMysticInfringer_laptop_192.example.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SquadmateEstablishedHero_laptop_192",
+            "_to": "hostname/SquadmateEstablishedHero_laptop_192.example.org"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to": "hostname/apt28.org"
+        }
+    ],
+    "ipaddress": [
+        {
+            "_key": "192.168.1.119"
+        },
+        {
+            "_key": "192.168.0.2"
+        },
+        {
+            "_key": "192.168.11.44"
+        },
+        {
+            "_key": "67.229.97.229"
+        }
+    ],
+    "account_ipaddress": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_1",
+            "_to": "ipaddress/192.168.1.119"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_2",
+            "_to": "ipaddress/192.168.0.2"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_3",
+            "_to": "ipaddress/192.168.11.44"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_1",
+            "_to": "ipaddress/67.229.97.229"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_2",
+            "_to": "ipaddress/67.229.97.229"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "account_3",
+            "_to": "ipaddress/67.229.97.229"
+        }
+    ],
+    "asset_ipaddress": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "AmuletBarflyQuizmaster_laptop_192",
+            "_to": "ipaddress/192.168.1.119"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SagaMysticInfringer_laptop_192",
+            "_to": "ipaddress/192.168.0.2"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SquadmateEstablishedHero_laptop_192",
+            "_to": "ipaddress/192.168.11.44"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to": "ipaddress/67.229.97.229"
+        }
+    ],
+    "macaddress": [
+        {
+            "_key": "c0:00:00:00:00:01"
+        },
+        {
+            "_key": "c0:00:00:00:00:02"
+        },
+        {
+            "_key": "c0:00:00:00:00:03"
+        },
+        {
+            "_key": "00:00:00:00:00:00"
+        }
+    ],
+    "asset_macaddress": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "AmuletBarflyQuizmaster_laptop_192",
+            "_to": "macaddress/c0:00:00:00:00:01"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SagaMysticInfringer_laptop_192",
+            "_to": "macaddress/c0:00:00:00:00:02"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "SquadmateEstablishedHero_laptop_192",
+            "_to": "macaddress/c0:00:00:00:00:03"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to": "macaddress/00:00:00:00:00:00"
+        }
+    ],
+    "ipaddress_macaddress": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from": "ipaddress/192.168.0.8",
+            "_to": "macaddress/c0:00:00:00:00:01"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from": "ipaddress/192.168.0.2",
+            "_to": "macaddress/c0:00:00:00:00:02"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from": "ipaddress/192.168.11.44",
+            "_to": "macaddress/c0:00:00:00:00:03"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from": "ipaddress/67.229.97.229",
+            "_to": "macaddress/00:00:00:00:00:00"
+        }
+    ],
+    "application": [
+        {
+            "name": "cust-svc",
+            "external_id": "cust-svc",
+            "description": "Application cust-svc",
+            "cpe": "CPE",
+            "is_os": true,
+            "app_type": "Customer Serice"
+        }
+    ],
+    "port": [
+        {
+            "port_number": 443,
+            "protocol": "https",
+            "external_id": "https",
+            "status": "up",
+            "description": "Hypertext Transfer Protocol (Secure)"
+        }
+    ],
+    "asset_application": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "asset1",
+            "_to_external_id": "cust-svc"
+        }
+    ],
+    "application_port": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "cust-svc",
+            "_to_external_id": "https"
+        }
+    ],
+    "ipaddress_port": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from": "ipaddress/67.229.97.229",
+            "_to_external_id": "https"
+        }
+    ],
+    "ipaddress_hostname": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from": "ipaddress/67.229.97.229",
+            "_to": "hostname/apt28.org"
+        }
+    ],
+    "account_application": [
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "cust-svc",
+            "_to_external_id": "account_1",
+            "user_id": "Amulet Barfly Quizmaster"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "cust-svc",
+            "_to_external_id": "account_2",
+            "user_id": "Saga Mystic Infringer"
+        },
+        {
+            "created": 1597776019.168942,
+            "report": "Report1",
+            "source": "Source1",
+            "active": true,
+            "_from_external_id": "cust-svc",
+            "_to_external_id": "account_3",
+            "user_id": "Squadmate Established Hero"
+        }
+    ]
+}
