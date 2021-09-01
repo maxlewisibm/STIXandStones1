@@ -1,0 +1,108 @@
+{
+   "type":"bundle",
+   "id":"fe949f27-8a4c-46c4-80b4-c4d474f7a2f4",
+   "objects":[
+      {
+         "id":"observed-data--5fc07af6-5a15-4046-9721-b83dec336c7e",
+         "type":"observed-data",
+         "created_by_ref":"identity--6ea4cc0f-5c90-4ca2-bcc4-6f5f83ded3ae",
+         "created":"2021-01-12T18:00:39.996Z",
+         "modified":"2021-01-12T18:00:39.996Z",
+         "objects":{
+            "0":{
+               "type":"ipv4-addr",
+               "value":"172.16.60.43",
+               "resolves_to_refs":[
+                  "2"
+               ]
+            },
+            "1":{
+               "type":"network-traffic",
+               "src_ref":"0",
+               "src_port":0,
+               "dst_ref":"3",
+               "dst_port":0,
+               "protocols":[
+                  "reserved"
+               ]
+            },
+            "2":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "3":{
+               "type":"ipv4-addr",
+               "value":"172.16.60.43",
+               "resolves_to_refs":[
+                  "4"
+               ]
+            },
+            "4":{
+               "type":"mac-addr",
+               "value":"00:00:00:00:00:00"
+            },
+            "5":{
+               "type":"user-account",
+               "user_id":"SYSTEM"
+            },
+            "6":{
+               "type":"artifact",
+               "payload_bin":"PDE4Mj5KYW4gMTIgMTI6NTY6NTAgMTcyLjE2LjYwLjQzIDwxMz5KYW4gMTIgMTE6Mjk6MzYgMTcyLjE2LjYwLjQzIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi45Ljk2CVNvdXJjZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24JQ29tcHV0ZXI9b3BzX3dvcmtzdGF0aW9uXzE0Ny5kb21haW4ubG9jYWwJT3JpZ2luYXRpbmdDb21wdXRlcj0xNzIuMTYuNjAuNDMJVXNlcj1TWVNURU0JRG9tYWluPU5UIEFVVEhPUklUWQlFdmVudElEPTcJRXZlbnRJRENvZGU9NwlFdmVudFR5cGU9NAlFdmVudENhdGVnb3J5PTcJUmVjb3JkTnVtYmVyPTE1MjAxMTI1MTYJVGltZUdlbmVyYXRlZD0xNjEwNDY4OTc1CVRpbWVXcml0dGVuPTE2MTA0Njg5NzUJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNrLVNZU01PTl9JTUFHRV9MT0FECU9wY29kZT1JbmZvCU1lc3NhZ2U9SW1hZ2UgbG9hZGVkOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMjEtMDEtMTIgMTY6Mjk6MzUuNTE4IFByb2Nlc3NHdWlkOiB7ZTFjM2RmMzMtY2U2Zi01ZmZkLTAwMDAtMDAxMDI2NjZiYzVkfSBQcm9jZXNzSWQ6IDYwNzIgSW1hZ2U6IEM6XFdpbmRvd3NcU3lzdGVtMzJcbG9hZGRsbDMyLmV4ZSBJbWFnZUxvYWRlZDogQzpcVXNlcnNccHdpbXNcRGVza3RvcFxTb2xhcldpbmRzLk9yaW9uLkNvcmUuQnVzaW5lc3NMYXllci5kbGwgRmlsZVZlcnNpb246IDEwLjAuMTc3NjMuMSAoV2luQnVpbGQuMTYwMTAxLjA4MDApIERlc2NyaXB0aW9uOiBXaW5kb3dzIENvcmUgRGVidWdnaW5nIEhlbHBlcnMgUHJvZHVjdDogTWljcm9zb2Z0wq4gV2luZG93c8KuIE9wZXJhdGluZyBTeXN0ZW0gQ29tcGFueTogTWljcm9zb2Z0IENvcnBvcmF0aW9uIE9yaWdpbmFsRmlsZU5hbWU6ICBTb2xhcldpbmRzLk9yaW9uLkNvcmUuQnVzaW5lc3NMYXllci5kbGwgSGFzaGVzOiBTSEExPTc2NjQwNTA4YjFlNzc1OWU1NDg3NzFhNTM1OWVhZWQzNTNiZjFlZWMsTUQ1PWI5MWNlMmZhNDEwMjlmNjk1NWJmZjIwMDc5NDY4NDQ4LFNIQTI1Nj0zMjUxOWI4NWMwYjQyMmU0NjU2ZGU2ZTZjNDE4NzhlOTVmZDk1MDI2MjY3ZGFhYjQyMTVlZTU5YzEwN2Q2Yzc3IFNpZ25lZDogdHJ1ZSBTaWduYXR1cmU6IE1pY3Jvc29mdCBXaW5kb3dzIFNpZ25hdHVyZVN0YXR1czogVmFsaWQ"
+            },
+            "7":{
+               "type":"file",
+               "name": "SolarWinds.Orion.Core.BusinessLayer.dll",
+               "hashes": {
+                   "MD5": "b91ce2fa41029f6955bff20079468448",
+                   "SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+                   "SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+               }
+            }
+         },
+         "x_ibm_ariel":{
+            "event_name":"Image loaded",
+            "qid":5001844,
+            "category_name":"Object Load Success",
+            "category_id":19247,
+            "high_level_category_name":"Audit",
+            "high_level_category_id":19000,
+            "log_source_id":1667,
+            "device_type":12,
+            "log_source_type_name":"Microsoft Windows Security Event Log",
+            "log_source_name":"WindowsAuthServer @ 10.39.45.109",
+            "direction":"L2L",
+            "identity_ip":"0.0.0.0",
+            "magnitude":5,
+            "severity":1,
+            "credibility":5,
+            "relevance":9,
+            "geographic":"other",
+            "cre_event_list":[
+               "100265",
+               "115543",
+               "115493",
+               "113893",
+               "100227",
+               "100221",
+               "100272",
+               "100215"
+            ],
+            "rule_names":[
+               "BB:DeviceDefinition: Operating System",
+               "BB:UBA : Common Log Source Filters",
+               "BB:UBA : Common Event Filters",
+               "BB:UBA : Excluded Geographic Locations",
+               "Source Asset Weight is Low",
+               "Destination Asset Weight is Low",
+               "Load Basic Building Blocks",
+               "Context is Local to Local"
+            ],
+            "domain_id":0,
+            "domain_name":"Default Domain"
+         },
+         "first_observed":"2021-01-12T17:56:50.720Z",
+         "last_observed":"2021-01-12T17:57:50.720Z",
+         "number_observed":1
+      }
+   ]
+}
