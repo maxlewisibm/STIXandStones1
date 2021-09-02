@@ -6,8 +6,8 @@
          "id":"observed-data--5fc07af6-5a15-4046-9721-b83dec336c7e",
          "type":"observed-data",
          "created_by_ref":"identity--6ea4cc0f-5c90-4ca2-bcc4-6f5f83ded3ae",
-         "created":"2021-08-31T18:00:39.996Z",
-         "modified":"2021-08-31T18:00:39.996Z",
+         "created":"2021-09-01T18:00:39.996Z",
+         "modified":"2021-09-01T18:00:39.996Z",
          "objects":{
             "0":{
                "type":"ipv4-addr",
@@ -100,8 +100,8 @@
             "domain_id":0,
             "domain_name":"Default Domain"
          },
-         "first_observed":"2021-08-31T17:56:50.720Z",
-         "last_observed":"2021-08-31T17:57:50.720Z",
+         "first_observed":"2021-09-01T17:56:50.720Z",
+         "last_observed":"2021-09-01T17:57:50.720Z",
          "number_observed":1
       }
    ]
