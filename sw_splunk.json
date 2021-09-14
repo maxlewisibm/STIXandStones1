@@ -6,8 +6,8 @@
          "id":"observed-data--5fc07af6-5a15-4046-9721-b83dec336c7t",
          "type":"observed-data",
          "created_by_ref":"identity--6ea4cc0f-5c90-4ca2-bcc4-6f5f83ded3ap",
-         "created":"2021-09-12T18:00:39.996Z",
-         "modified":"2021-09-12T18:00:39.996Z",
+         "created":"2021-09-13T18:00:39.996Z",
+         "modified":"2021-09-13T18:00:39.996Z",
          "objects":{
             "0":{
                "type":"ipv4-addr",
@@ -61,10 +61,10 @@
          },
          "x_com_splunk_spl": {
                 "user": "SYSTEM",
-                "utf8_payload": "<13>Jan 12 11:29:36 10.35.49.109 AgentDevice=WindowsLog AgentLogFile=Microsoft-Windows-Sysmon/Operational PluginVersion=7.2.9.96 Source=Microsoft-Windows-Sysmon Computer=DC01.domain.local OriginatingComputer=10.35.49.109 User=SYSTEM Domain=NT AUTHORITY EventID=7 EventIDCode=7 EventType=4 EventCategory=7 RecordNumber=1520112516 TimeGenerated=1610468975 TimeWritten=1610468975 Level=Informational Keywords=0x8000000000000000 Task=SysmonTask-SYSMON_IMAGE_LOAD Opcode=Info Message=Image loaded: RuleName: UtcTime: 2021-09-12 16:29:35.518 ProcessGuid: {e1c3df33-ce6f-5ffd-0000-00102666bc5d} ProcessId: 6072 Image: C:\\Windows\\System32\\loaddll32.exe ImageLoaded: C:\\Users\\dtroy\\Desktop\\SolarWinds.Orion.Core.BusinessLayer.dll FileVersion: 10.0.17763.1 (WinBuild.160101.0800) Description: Windows Core Debugging Helpers Product: Microsoft Windows Operating System Company: Microsoft Corporation OriginalFileName: SolarWinds.Orion.Core.BusinessLayer.dll Hashes: SHA1=76640508b1e7759e548771a5359eaed353bf1eec,MD5=b91ce2fa41029f6955bff20079468448,SHA256=32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 Signed: true Signature: Microsoft Windows SignatureStatus: Valid \n"
+                "utf8_payload": "<13>Jan 12 11:29:36 10.35.49.109 AgentDevice=WindowsLog AgentLogFile=Microsoft-Windows-Sysmon/Operational PluginVersion=7.2.9.96 Source=Microsoft-Windows-Sysmon Computer=DC01.domain.local OriginatingComputer=10.35.49.109 User=SYSTEM Domain=NT AUTHORITY EventID=7 EventIDCode=7 EventType=4 EventCategory=7 RecordNumber=1520112516 TimeGenerated=1610468975 TimeWritten=1610468975 Level=Informational Keywords=0x8000000000000000 Task=SysmonTask-SYSMON_IMAGE_LOAD Opcode=Info Message=Image loaded: RuleName: UtcTime: 2021-09-13 16:29:35.518 ProcessGuid: {e1c3df33-ce6f-5ffd-0000-00102666bc5d} ProcessId: 6072 Image: C:\\Windows\\System32\\loaddll32.exe ImageLoaded: C:\\Users\\dtroy\\Desktop\\SolarWinds.Orion.Core.BusinessLayer.dll FileVersion: 10.0.17763.1 (WinBuild.160101.0800) Description: Windows Core Debugging Helpers Product: Microsoft Windows Operating System Company: Microsoft Corporation OriginalFileName: SolarWinds.Orion.Core.BusinessLayer.dll Hashes: SHA1=76640508b1e7759e548771a5359eaed353bf1eec,MD5=b91ce2fa41029f6955bff20079468448,SHA256=32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 Signed: true Signature: Microsoft Windows SignatureStatus: Valid \n"
             },
-            "first_observed":"2021-09-12T17:56:50.720Z",
-            "last_observed":"2021-09-12T17:57:50.720Z",
+            "first_observed":"2021-09-13T17:56:50.720Z",
+            "last_observed":"2021-09-13T17:57:50.720Z",
             "number_observed":1
             
         }
